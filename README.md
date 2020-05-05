@@ -1,4 +1,4 @@
-# L-kernel-config
+# ls-kernel-config
 My own kernel config for hp 14s-dk0024AU, This includes :
 1. AMDGPU Support.
 2. Docker Support.
