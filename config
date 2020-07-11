@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.8rc3-lemniskett Kernel Configuration
+# Linux/x86 5.8rc4-lemniskett Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (GCC) 10.1.0"
 CONFIG_CC_IS_GCC=y
@@ -2400,7 +2400,15 @@ CONFIG_WLAN_VENDOR_REALTEK=y
 # CONFIG_RTL8187 is not set
 # CONFIG_RTL_CARDS is not set
 # CONFIG_RTL8XXXU is not set
-# CONFIG_RTW88 is not set
+CONFIG_RTW88=m
+CONFIG_RTW88_CORE=m
+CONFIG_RTW88_PCI=m
+CONFIG_RTW88_8723D=m
+# CONFIG_RTW88_8822BE is not set
+# CONFIG_RTW88_8822CE is not set
+CONFIG_RTW88_8723DE=m
+# CONFIG_RTW88_DEBUG is not set
+# CONFIG_RTW88_DEBUGFS is not set
 CONFIG_WLAN_VENDOR_RSI=y
 # CONFIG_RSI_91X is not set
 CONFIG_WLAN_VENDOR_ST=y
@@ -6885,6 +6893,4 @@ CONFIG_GENTOO_LINUX_PORTAGE=y
 CONFIG_GENTOO_LINUX_INIT_SCRIPT=y
 CONFIG_GENTOO_LINUX_INIT_SYSTEMD=y
 # end of Support for init systems, system and service managers
-
-CONFIG_RTLWIFI_NEW=m
 # end of Ls Kernel extras
